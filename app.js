@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 10;
 function reiniciarJogo(){
     limparCampo();
     tentativas = 1;
@@ -16,7 +16,7 @@ function exibirTextoNaTela(tag,texto){
 
 function exibirMensagemInicial(){
     exibirTextoNaTela('h1','Jogo da Adivinhação');
-    exibirTextoNaTela('p', 'Escolha um número de 1 a 100');
+    exibirTextoNaTela('p', `Escolha um número entre 1 e ${numeroLimite}`);
 }
 
 function verificarChute(){
