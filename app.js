@@ -1,4 +1,4 @@
-let listaDeNumerosSorteados = [];
+
 let numeroLimite = 50;
 function reiniciarJogo(){
     limparCampo();
