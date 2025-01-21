@@ -1,4 +1,4 @@
-# Nome do Projeto
+# Jogo da Adivinhação
 
 ## 📖 Descrição
 Projeto do jogo da adivinhação criado apartir do curso programação para iniciantes com JavaScript da Alura.
